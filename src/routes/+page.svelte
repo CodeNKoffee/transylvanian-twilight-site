@@ -30,9 +30,9 @@
 									<ellipse cx="300" cy="190" rx="260" ry="18" fill="#FF6AD5" opacity="0.07" />
 								</svg>
 							</div>
-			<h1 class="text-4xl md:text-5xl font-bold tracking-tight mb-4 gothic-title">Transylvanian Twilight</h1>
-			<p class="text-lg md:text-xl text-[#B8C4D9] mb-2 font-serif">A Romanian-flavored arctic-dark VS Code theme for elegant, mysterious night coding.</p>
-			<p class="text-base text-[#8FA1BF] italic font-serif">Haunting beauty. High contrast. Gothic charm.</p>
+			<h1 class="text-4xl md:text-5xl font-bold tracking-tight mb-4 gothic-title">Transylvanian Twilight <span aria-label="Romania" title="Romania" class="ml-2">🇷🇴</span></h1>
+			<p class="text-lg md:text-xl text-[#B8C4D9] mb-2 font-serif">A Romanian-flavored arctic-dark VS Code theme for elegant, mysterious night coding. <span class="ml-2">🧛‍♂️🏰🌲</span></p>
+			<p class="text-base text-[#8FA1BF] italic font-serif">Haunting beauty. High contrast. Gothic charm. <span class="ml-2">🌙🥀</span></p>
 		</div>
 	</section>
 	<!-- Palette Highlights -->
@@ -67,12 +67,12 @@
 	</section>
 	<!-- Pledge Section -->
 	<section class="max-w-2xl mx-auto px-4 py-8 text-center prose prose-invert">
-		<h2 class="text-xl font-semibold mb-4 text-[#C4B5FD] font-serif">The Transylvanian Twilight Pledge</h2>
+		<h2 class="text-xl font-semibold mb-4 text-[#C4B5FD] font-serif">The Transylvanian Twilight Pledge <span class="ml-2">🇷🇴🧛‍♂️</span></h2>
 		<blockquote class="bg-[#141E36] rounded-xl p-6 text-[#B8C4D9] italic shadow-md border border-[#1A2442] font-serif">
-			I solemnly swear to code under the Carpathian moon,<br>
-			To embrace the fog, the shadows, and the night,<br>
-			To write mystical, bug-fighting code,<br>
-			And to debug like a vampire… silently and elegantly.
+			I solemnly swear to code under the Carpathian moon 🌙,<br>
+			To embrace the fog, the shadows, and the night 🌲,<br>
+			To write mystical, bug-fighting code 🧛‍♂️,<br>
+			And to debug like a vampire… silently and elegantly. 🇷🇴
 		</blockquote>
 		<p class="mt-4 text-[#7FE9FF] font-serif">Take the pledge before opening your IDE for a fully enchanted experience! 🦇🌙</p>
 	</section>

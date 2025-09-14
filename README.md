@@ -1,38 +1,54 @@
-# sv
+# Transylvanian Twilight Landing Site 🇷🇴🧛‍♂️
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+> A visually striking, gothic/arctic one-page commercial site for the Transylvanian Twilight VS Code theme.
 
-## Creating a project
+## 🦇 Features
 
-If you're seeing this, you've probably already done this step. Congrats!
+- Hero section with animated Transylvanian night (Giphy)
+- Elegant product pitch and color palette highlights
+- Installation steps and call-to-action
+- The Transylvanian Twilight pledge
+- Feedback link and Romanian cultural touches
 
-```sh
-# create a new project in the current directory
-npx sv create
+## 🛠 Tech Stack
 
-# create a new project in my-app
-npx sv create my-app
+- SvelteKit + TypeScript
+- TailwindCSS (typography/forms)
+- Netlify adapter
+- Storybook (component previews)
+
+## 🚀 Getting Started
+
+Install dependencies:
+
+```bash
+bun install
 ```
 
-## Developing
+Start the dev server:
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```sh
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+```bash
+bun run dev
 ```
 
-## Building
+Visit [http://localhost:5173](http://localhost:5173) to view the site.
 
-To create a production version of your app:
+## 🧪 Storybook
 
-```sh
-npm run build
+Run Storybook for component previews:
+
+```bash
+bun run storybook
 ```
 
-You can preview the production build with `npm run preview`.
+## 🌙 Deploy
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+This site is ready for Netlify. Use the Netlify adapter for SvelteKit.
+
+## 📝 Feedback & Issues
+
+Found a bug or have a suggestion? [Open an issue on GitHub](https://github.com/CodeNKoffee/transylvanian-twilight-theme).
+
+---
+
+Made with 🦇, 🇷🇴, and gothic code under the Carpathian moon.
