@@ -20,36 +20,16 @@
 	<!-- Hero Section -->
 	<section class="flex flex-col items-center justify-center py-16 px-4 text-center prose prose-invert prose-lg max-w-2xl mx-auto">
 		<div class="w-full mb-8">
-					<!-- Dracula/Carpathian Gothic SVG -->
-					<svg viewBox="0 0 600 200" fill="none" xmlns="http://www.w3.org/2000/svg" class="mx-auto mb-6 drop-shadow-2xl" style="max-width:100%">
-						<!-- Misty background -->
-						<rect width="600" height="200" rx="24" fill="#0B1220" />
-						<ellipse cx="300" cy="180" rx="280" ry="32" fill="#B69CFF" opacity="0.08" />
-						<ellipse cx="300" cy="190" rx="260" ry="18" fill="#FF6AD5" opacity="0.07" />
-						<!-- Crescent moon -->
-						<path d="M540 60 A24 24 0 1 1 516 36 Q540 36 540 60Z" fill="#E6EDF3" opacity="0.8" />
-						<!-- Carpathian peaks -->
-						<path d="M0 200 Q 60 120 120 180 Q 180 100 240 160 Q 300 80 360 170 Q 420 120 480 200 Q 540 160 600 200 Z" fill="#111A2E" />
-						<!-- Castle silhouette -->
-						<g>
-							<rect x="370" y="110" width="40" height="60" fill="#1A2442" stroke="#B69CFF" stroke-width="2" />
-							<rect x="385" y="90" width="10" height="20" fill="#B69CFF" />
-							<rect x="395" y="100" width="8" height="10" fill="#B69CFF" />
-							<rect x="410" y="120" width="8" height="20" fill="#B69CFF" />
-							<rect x="380" y="130" width="6" height="12" fill="#FF6AD5" />
-						</g>
-						<!-- Bats -->
-						<g>
-							<path d="M120 60 Q125 55 130 60 Q125 65 120 60" fill="#B69CFF" />
-							<path d="M150 40 Q155 35 160 40 Q155 45 150 40" fill="#FF6AD5" />
-							<path d="M500 80 Q505 75 510 80 Q505 85 500 80" fill="#B69CFF" />
-						</g>
-						<!-- Dracula fangs motif -->
-						<ellipse cx="60" cy="180" rx="8" ry="3" fill="#FF6AD5" opacity="0.7" />
-						<ellipse cx="80" cy="180" rx="8" ry="3" fill="#FF6AD5" opacity="0.7" />
-						<!-- Decorative border -->
-						<rect x="8" y="8" width="584" height="184" rx="20" fill="none" stroke="#B69CFF" stroke-width="2" opacity="0.3" />
-					</svg>
+							<!-- Artistic Giphy GIF + SVG overlay -->
+							<div class="relative mx-auto mb-6" style="max-width:600px;">
+								<img src="https://media.giphy.com/media/6C6SASmBJIq0q7qhaW/giphy.gif" alt="Transylvanian Twilight Night" class="rounded-2xl w-full h-[200px] object-cover border-2 border-[#B69CFF] shadow-2xl" />
+								<!-- SVG overlay for gothic border and mist -->
+								<svg viewBox="0 0 600 200" fill="none" class="absolute top-0 left-0 w-full h-full pointer-events-none">
+									<rect x="8" y="8" width="584" height="184" rx="20" fill="none" stroke="#B69CFF" stroke-width="2" opacity="0.4" />
+									<ellipse cx="300" cy="180" rx="280" ry="32" fill="#B69CFF" opacity="0.08" />
+									<ellipse cx="300" cy="190" rx="260" ry="18" fill="#FF6AD5" opacity="0.07" />
+								</svg>
+							</div>
 			<h1 class="text-4xl md:text-5xl font-bold tracking-tight mb-4 gothic-title">Transylvanian Twilight</h1>
 			<p class="text-lg md:text-xl text-[#B8C4D9] mb-2 font-serif">A Romanian-flavored arctic-dark VS Code theme for elegant, mysterious night coding.</p>
 			<p class="text-base text-[#8FA1BF] italic font-serif">Haunting beauty. High contrast. Gothic charm.</p>
